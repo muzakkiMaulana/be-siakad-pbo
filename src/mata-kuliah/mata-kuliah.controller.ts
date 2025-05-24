@@ -13,7 +13,7 @@ import { MataKuliahService } from './mata-kuliah.service';
 import { CreateMataKuliahDto } from './dto/create-mata-kuliah.dto';
 import { UpdateMataKuliahDto } from './dto/update-mata-kuliah.dto';
 
-@Controller('mata-kuliah')
+@Controller('matakuliah')
 export class MataKuliahController {
   constructor(private readonly mataKuliahService: MataKuliahService) {}
 

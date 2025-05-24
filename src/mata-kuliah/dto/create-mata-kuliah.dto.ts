@@ -11,7 +11,7 @@ import {
 export class CreateMataKuliahDto {
   @IsDefined({ message: 'Kode harus disertakan' })
   @IsString({ message: 'Kode harus berupa teks' })
-  @Length(5, 10, { message: 'Kode harus terdiri dari 5 hingga 10 karakter' })
+  @Length(2, 10, { message: 'Kode harus terdiri dari 2 hingga 10 karakter' })
   @IsNotEmpty({ message: 'Kode tidak boleh kosong' })
   kode: string;
 
